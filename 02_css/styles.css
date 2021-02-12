@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+body {
+	background-image: url("../01_images/wallpaper-patter.jpg")
+}
+
+p {
+	font-family: 'Abel', sans-serif;
+	text-align: justify;
+	font-size:12pt;
+}
+
+.mybut {
+    background-color: #FFFED9;
+    width: 120px;
+    height: 58px;
+    border-radius: 14px;
+    font-size: 20pt;
+    margin-left: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.gotitfont{
+	text-decoration: none;
+	color:#05637E;
+}
+
+.mybut:hover {
+	background-color:#F4A830;
+}
+
+nav {
+	display:flex;
+	flex-direction: row;
+}
+
+.myfont {
+	font-family: 'Bebas Neue', cursive;
+}
+
+.myheader {
+	background-color: #FFFED9;
+	background-image:url("../01_images/city.png");
+	width: 900px;
+	height: 264px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:30px;
+	padding-bottom: 20px;
+}
+
+.mycontent {
+	background-color: #FFFED9;
+	width: 876px;
+	height: 864px;
+	margin-left:auto;
+	margin-right:auto;
+	padding-left: 12px;
+	padding-right: 12px;
+}
+
+.goodguy {
+	float: left;
+	padding-right: 12px;
+}
